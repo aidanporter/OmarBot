@@ -1,0 +1,520 @@
+html {
+    font-family: courier-new;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+body {
+    margin: 0
+}
+a:active, a:hover {
+    outline: 0
+}
+b {
+    font-weight: bold
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+input, select {
+    font-family: "Courier New";
+    font-size: 100%;
+    margin: 0
+}
+input {
+    line-height: normal
+}
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+body {
+    color: black;
+    font-family: "Courier New"
+}
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none
+}
+a:hover, a:focus {
+    color: white;
+    background-color: red
+}
+h2 {
+    font-size: 1em;
+    margin-top: 0
+}
+p {
+    font-size: 1em;
+    margin-top: 0
+}
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0 0 0.81818em 0
+}
+select {
+    border: 1px solid #999;
+    display: block;
+    font-family: 'Courier New'
+    font-size: 1.27273em;
+    padding: 0
+}
+input, select {
+    border: 1px solid black;
+    font-family: 'Courier New'
+    padding: 0.18182em
+}
+.japan.checkout_page #content {
+    height: 451px
+}
+.japan .tab {
+    line-height: 16px
+}
+.japan.cart h2 b {
+    line-height: 16px
+}
+.cart #content {
+    border: 1px dotted #999;
+    border-bottom: 0;
+    position: relative
+}
+.cart #tabs:before, .cart #tabs:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+.cart #tabs:after {
+    clear: both
+}
+.cart .tab {
+    border-bottom: 1px dotted #999;
+    color: #999;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    width: 33.3333333333%
+}
+.cart .tab a {
+    display: block;
+    font-weight: normal;
+    padding: 0.81818em 0
+}
+.cart .tab.selected {
+    background: #636363;
+    color: #fff
+}
+.cart .tab a:hover, .cart .tab a:focus {
+    background: #000;
+    color: #fff
+}
+.cart h2 {
+    background: #636363;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%
+}
+.cart h2 b {
+    display: block;
+    font-weight: normal;
+    padding: 0.36364em 0.90909em
+}
+#cart-body {
+    border-top: 1px dotted #999;
+    height: 315px;
+    overflow: auto;
+    position: relative
+}
+.japan #cart-body {
+    height: 300px
+}
+#cart-body.payment {
+    height: 34.18182em;
+    border-top: none
+}
+.error.js {
+    text-transform: lowercase;
+    color: red;
+    display: block !important;
+    clear: left;
+    padding-top: 3px;
+    margin-left: 117px;
+    font-size: 10px
+}
+.payment div.input.focus label {
+    background: #666;
+    color: #fff
+}
+.payment div.input.focus label.no-gray-bg {
+    background: transparent;
+    color: black
+}
+.japan #cart-body.payment {
+    height: 33.18182em
+}
+#cart-body.payment fieldset p:first-child {
+    padding: 1px 0 0 5px;
+    margin-bottom: 6px;
+    min-height: 12px
+}
+.payment fieldset {
+    padding: 6px 0 0 6px
+}
+.payment div.input {
+    margin-bottom: 6px
+}
+.payment div.input:before, .payment div.input:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+.payment div.input:after {
+    clear: both
+}
+.payment label, .payment div.clb {
+    background: url("check-dark.gif") left top repeat;
+    float: left;
+    font-size: 1.09091em;
+    line-height: 2em;
+    margin-right: 0.41667em;
+    padding-left: 0.83333em;
+    width: 8.5em
+}
+.payment label.no-gray-bg {
+    background: none
+}
+.payment div.input.error label {
+    background: #ff0000;
+    color: #fff
+}
+.payment input[type="text"], .payment input[type="email"], .payment select {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    float: left
+}
+.payment input[type="text"], .payment input[type="email"] {
+    height: 18px;
+    width: 15em
+}
+.payment input[type="text"]#order_billing_zip {
+    width: 3.75em;
+    text-transform: uppercase
+}
+.payment select {
+    height: 2em;
+    margin-right: 0.5em;
+    font-weight: bold
+}
+.payment #credit_card_type {
+    width: 170px
+}
+.payment #cart-vval {
+    background: url("visa-cvv.gif") 14.66667em top no-repeat
+}
+.payment #cart-vval input {
+    width: 2.5em
+}
+.payment #cart-vval.visa {
+    background: url("visa-cvv.gif") 14.66667em top no-repeat
+}
+.japan .payment #cart-vval {
+    background: url("visa-cvv.gif") 15.83333em no-repeat
+}
+.japan .payment #cart-vval.visa {
+    background: url("visa-cvv.gif") 15.83333em no-repeat
+}
+.payment #rmae input {
+    width: 2.5em
+}
+#cart-address, #cart-cc {
+    float: left;
+    height: 100%;
+    width: 50%
+}
+#cart-address {
+    background: url("data:image/gif;base64,R0lGODlhAQACAIAAAP///5mZmSH5BAAAAAAALAAAAAABAAIAAAICDAoAOw==") right top repeat-y
+}
+#cart-address input[type="text"], #cart-address input[type="email"] {
+    width: 15.83333em
+}
+#cart-address select#order_billing_state, #cart-address select#order_billing_country {
+    width: 10em
+}
+#cart-address input#order_billing_zip {
+    width: 9.5em
+}
+.japan #cart-address input[type="text"], .japan #cart-address input[type="email"] {
+    width: 14.83333em
+}
+.japan #cart-address #credit_card_last_name, .japan #cart-address #credit_card_first_name {
+    width: 7.08333em;
+    margin-right: 1px
+}
+.japan #cart-address select#order_billing_state {
+    width: 10em
+}
+.japan #cart-address input#order_billing_zip {
+    width: 9.5em
+}
+#cart-cc input#credit_card_number, #cart-cc input#cnb {
+    width: 164px
+}
+.payment label, .payment div.clb, .payment div.nclb, .payment .nlb {
+    background: url("check-dark.gif") left top repeat;
+    float: left;
+    font-size: 1.09091em;
+    line-height: 2em;
+    margin-right: 0.41667em;
+    padding-left: 0.83333em;
+    width: 8.5em
+}
+#cart-footer {
+    border-bottom: 1px dotted #999;
+    border-top: 1px dotted #999;
+    padding-bottom: 4px;
+    padding-top: 2px
+}
+#cart-footer:before, #cart-footer:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+#cart-footer:after {
+    clear: both
+}
+#cart-footer .button {
+    float: right;
+    margin: 0.66364em 0.66364em 0 0;
+    padding: 10px 20px;
+    width: auto
+}
+#cart-footer .button:focus {
+    outline: 0
+}
+#cart-footer .checkout {
+    width: 16.36364em
+}
+#cart-footer .checkout:hover {
+    background-color: #db0000
+}
+html {
+    height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none
+}
+body {
+    font-size: 0.6875em;
+    height: 100%;
+    min-width: 69.09091em !important;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+#header {
+    background: transparent;
+    height: 50%;
+    margin: -20.45455em auto 4.09091em;
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+#wrap {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 60.54545em
+}
+#wrap:before, #wrap:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+#wrap:after {
+    clear: both
+}
+#nav {
+    line-height: 1;
+    margin: 0 auto 3.63636em;
+    width: 60.54545em;
+    max-width: 100%
+}
+#nav:before, #nav:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden
+}
+#nav:after {
+    clear: both
+}
+#nav-exit li:first {
+    margin: 0
+}
+a:focus {
+    outline: 0
+}
+#wrap *:not(#shop-scroller-container)::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 8px;
+    height: 8px;
+    margin-top: -30px
+}
+#wrap *:not(#shop-scroller-container)::-webkit-scrollbar-thumb:hover {
+    background-color: #8F8F8F
+}
+#wrap *:not(#shop-scroller-container)::-webkit-scrollbar-thumb:active {
+    background-color: #7e7e7e
+}
+#wrap *:not(#shop-scroller-container)::-webkit-scrollbar-thumb {
+    background-color: #b5b5b5
+}
+#wrap *:not(#shop-scroller-container)::-webkit-scrollbar-track {
+    background-color: #d6d6d6
+}
+.button {
+    background: red;
+    border: 1px solid red;
+    border-radius: 0;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 0.27273em 0;
+    text-align: center;
+    white-space: nowrap;
+    width: 8.90909em
+}
+@media all and (max-height: 40.625em) {
+    #header {
+        height: auto;
+        margin: 2.54545em auto 4.09091em
+    }
+}
+@media all and (max-width: 37.5em) {
+    #wrap {
+        height: auto
+    }
+    #wrap {
+        margin-bottom: 4.36364em
+    }
+}
+.payment input[type="text"], .payment input[type="email"], .payment select {
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #CCC;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px
+}
+.payment input[type="text"]:focus, .payment input[type="email"]:focus, .payment select:focus {
+    outline: 0;
+    border: 1px solid #BEBEBE;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+}
+.design.for-single-collection #select2-category-results li:first {
+    display: list-item
+}
+@media print {
+    @page {
+        margin: 0.5cm
+    }
+    p, h2 {
+        orphans: 3;
+        widows: 3
+    }
+    h2 {
+        page-break-after: avoid
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    html {
+        box-sizing: border-box;
+        height: 100%
+    }
+    *, *:before, *:after {
+        box-sizing: inherit
+    }
+    * {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    }
+    body {
+        min-width: auto !important;
+        height: 100%
+    }
+    body:before {
+        content: "mobile";
+        display: none
+    }
+    #wrap {
+        min-height: calc(100vh - 250px);
+        height: auto;
+        padding-left: 1.36364em;
+        padding-right: 1.36364em;
+        margin-bottom: 0;
+        width: auto !important
+    }
+    #header {
+        margin: 2.72727em 0 2.72727em 0;
+        height: auto
+    }
+    #nav {
+        line-height: 1;
+        max-width: none;
+        margin-bottom: 20px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px
+    }
+    #nav:before, #nav:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden
+    }
+    #nav:after {
+        clear: both
+    }
+}
+.button {
+    cursor: pointer;
+}
+.button#reset-btn {
+    background-color: #000;
+    border-color: #000;
+}
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC99XmFXnUr3YtP5BU9UCAvPKZnDrLiJeY",
+    authDomain: "icop-supreme.firebaseapp.com",
+    databaseURL: "https://icop-supreme.firebaseio.com",
+    projectId: "icop-supreme",
+    storageBucket: "",
+    messagingSenderId: "1039486319436"
+  };
+  firebase.initializeApp(config);
+</script>
